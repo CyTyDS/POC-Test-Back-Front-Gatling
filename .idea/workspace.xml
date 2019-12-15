@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6860df9d-6b3c-482c-9cea-4386103109c7" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +15,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1TkMcZIvxxyFNEjUC8ZRU7UX0hv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -40,18 +44,8 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="JUnit.NumbersTest">
     <configuration name="HelloServiceMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testingj5Moc" />
       <extension name="coverage">
@@ -82,11 +76,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testingj5Moc" />
+    <configuration name="NumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="POC-Test-Back-Front-Gatling-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="hello" />
-      <option name="MAIN_CLASS_NAME" value="hello.HelloServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="hello.NumbersTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="POC-Test-Back-Front-Gatling-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,41 +117,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="testingj5Moc" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="StartApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NumbersTest" />
+        <item itemvalue="Spring Boot.Application (1)" />
+        <item itemvalue="JUnit.HelloServiceMockTest" />
         <item itemvalue="Spring Boot.Application" />
         <item itemvalue="JUnit.HelloServiceMockTest2" />
-        <item itemvalue="JUnit.HelloServiceMockTest" />
-        <item itemvalue="JUnit.HelloServiceTest" />
-        <item itemvalue="Spring Boot.StartApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c2d5b1ac" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c2d5b1ac" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@93cb3d9c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -161,10 +169,52 @@
       <workItem from="1575191234836" duration="2513000" />
       <workItem from="1575291393204" duration="1191000" />
       <workItem from="1575323730340" duration="22000" />
+      <workItem from="1576404160408" duration="2981000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="365" y="72" key="#HelloServiceMockTest" timestamp="1576404433072">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="365" y="72" key="#HelloServiceMockTest/0.0.1536.834@0.0.1536.834" timestamp="1576404433072" />
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1576407080759">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1576407080759" />
+    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1576407080759">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1576407080759" />
+    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1576407080759">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1576407080759" />
+    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1576407080759">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1576407080759" />
+    <state width="1024" height="213" key="GridCell.Tab.1.bottom" timestamp="1576406108728">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1024" height="213" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1576406108728" />
+    <state width="1024" height="213" key="GridCell.Tab.1.center" timestamp="1576406108728">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1024" height="213" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1576406108728" />
+    <state width="1024" height="213" key="GridCell.Tab.1.left" timestamp="1576406108728">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1024" height="213" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1576406108728" />
+    <state width="1024" height="213" key="GridCell.Tab.1.right" timestamp="1576406108728">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1024" height="213" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1576406108728" />
+  </component>
+  <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
+    <setting name="isActivated" value="false" />
   </component>
 </project>
