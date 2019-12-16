@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6860df9d-6b3c-482c-9cea-4386103109c7" name="Default Changelist" comment="" />
+    <list default="true" id="6860df9d-6b3c-482c-9cea-4386103109c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/POC-Test-Back-Front-Gatling.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hello/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/Numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/NumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/NumbersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/hello/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/hello/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/hello/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/hello/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hello.HelloServiceMockTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-hello.HelloServiceMockTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hello.HelloServiceTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-hello.HelloServiceTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-hello.MainControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-hello.MainControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hello.HelloServiceMockTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/hello.HelloServiceMockTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hello.HelloServiceTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/hello.HelloServiceTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/hello.MainControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/hello.MainControllerTest.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +40,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TkMcZIvxxyFNEjUC8ZRU7UX0hv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,9 +54,11 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projetM2JEE" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -45,7 +76,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NumbersTest">
+  <component name="RunManager" selected="Spring Boot.Application (2)">
     <configuration name="HelloServiceMockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testingj5Moc" />
       <extension name="coverage">
@@ -56,21 +87,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="hello" />
       <option name="MAIN_CLASS_NAME" value="hello.HelloServiceMockTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloServiceMockTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testingj5Moc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello" />
-      <option name="MAIN_CLASS_NAME" value="hello.HelloServiceMockTest2" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,6 +120,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="POC-Test-Back-Front-Gatling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="testingj5Moc" />
       <extension name="coverage">
@@ -119,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application (2)" />
         <item itemvalue="JUnit.NumbersTest" />
         <item itemvalue="Spring Boot.Application (1)" />
         <item itemvalue="JUnit.HelloServiceMockTest" />
         <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="JUnit.HelloServiceMockTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +199,7 @@
       <workItem from="1575291393204" duration="1191000" />
       <workItem from="1575323730340" duration="22000" />
       <workItem from="1576404160408" duration="2981000" />
+      <workItem from="1576494862432" duration="1638000" />
     </task>
     <servers />
   </component>
@@ -177,42 +207,46 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="424" y="45" key="#Application" timestamp="1576495400261">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="424" y="45" key="#Application/0.0.1536.834@0.0.1536.834" timestamp="1576495400261" />
     <state x="365" y="72" key="#HelloServiceMockTest" timestamp="1576404433072">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="365" y="72" key="#HelloServiceMockTest/0.0.1536.834@0.0.1536.834" timestamp="1576404433072" />
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom" timestamp="1576407080759">
+    <state width="1024" height="213" key="GridCell.Tab.0.bottom" timestamp="1576497938989">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1576407080759" />
-    <state width="1493" height="208" key="GridCell.Tab.0.center" timestamp="1576407080759">
+    <state width="1024" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1576497938989" />
+    <state width="1024" height="213" key="GridCell.Tab.0.center" timestamp="1576497938988">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1576407080759" />
-    <state width="1493" height="208" key="GridCell.Tab.0.left" timestamp="1576407080759">
+    <state width="1024" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1576497938988" />
+    <state width="1024" height="213" key="GridCell.Tab.0.left" timestamp="1576497938988">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1576407080759" />
-    <state width="1493" height="208" key="GridCell.Tab.0.right" timestamp="1576407080759">
+    <state width="1024" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1576497938988" />
+    <state width="1024" height="213" key="GridCell.Tab.0.right" timestamp="1576497938989">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="208" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1576407080759" />
-    <state width="1024" height="213" key="GridCell.Tab.1.bottom" timestamp="1576406108728">
+    <state width="1024" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1576497938989" />
+    <state width="1024" height="213" key="GridCell.Tab.1.bottom" timestamp="1576497938990">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1024" height="213" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1576406108728" />
-    <state width="1024" height="213" key="GridCell.Tab.1.center" timestamp="1576406108728">
+    <state width="1024" height="213" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1576497938990" />
+    <state width="1024" height="213" key="GridCell.Tab.1.center" timestamp="1576497938989">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1024" height="213" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1576406108728" />
-    <state width="1024" height="213" key="GridCell.Tab.1.left" timestamp="1576406108728">
+    <state width="1024" height="213" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1576497938989" />
+    <state width="1024" height="213" key="GridCell.Tab.1.left" timestamp="1576497938989">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1024" height="213" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1576406108728" />
-    <state width="1024" height="213" key="GridCell.Tab.1.right" timestamp="1576406108728">
+    <state width="1024" height="213" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1576497938989" />
+    <state width="1024" height="213" key="GridCell.Tab.1.right" timestamp="1576497938990">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1024" height="213" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1576406108728" />
+    <state width="1024" height="213" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1576497938990" />
   </component>
   <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
     <setting name="isActivated" value="false" />

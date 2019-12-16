@@ -1,5 +1,7 @@
 package hello;
 
+import org.json.JSONException;
+import org.json.JSONObject;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -8,6 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.web.server.LocalServerPort;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 
 import java.net.URL;
 
@@ -29,7 +33,7 @@ public class NumbersTest {
         int expectedStatus = 200;
         int responseStatus;
         URL url = new URL("http://localhost:" + port + "/number");
-        responseStatus = restTemplate.postForEntity(url.toString(), int.class, String.class).getStatusCodeValue();
+        responseStatus = restTemplate.getForEntity(url.toString(), String.class).getStatusCodeValue();
         assertThat(responseStatus).isEqualTo(expectedStatus);
     }
 
@@ -38,15 +42,16 @@ public class NumbersTest {
 
     @BeforeEach
     void setMockOutput() {
-        when(numbers.getRandomNumber()).thenReturn(118218);
+        String value = "{\"number\":118218}";
+        when(numbers.getRandomNumber()).thenReturn(value);
     }
 
     @DisplayName("Test Mock Numbers")
     @Test
     void testGetRandomNumber() {
         // GIVEN
-        int expectedValue = 118218;
-        int incomeValue;
+        String expectedValue = "{\"number\":118218}";
+        String incomeValue;
         // WHEN
         incomeValue = numbers.getRandomNumber();
         // THEN
